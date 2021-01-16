@@ -1,0 +1,25 @@
+{
+  "name": "travis-test-run",
+  "version": "1.0.0",
+  "description": "Basic configuration to setup travis-ci and eslint.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirPotatoIV/travis-test-run.git"
+  },
+  "author": "Jake O'Toole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SirPotatoIV/travis-test-run/issues"
+  },
+  "homepage": "https://github.com/SirPotatoIV/travis-test-run#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
